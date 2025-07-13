@@ -1,0 +1,74 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+  background: linear-gradient(135deg, #f8fafc 0%, #c7d2fe 100%);
+  color: #22223b;
+  transition: background 0.5s;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.85);
+  border-radius: 18px;
+  box-shadow: 0 6px 32px 0 rgba(30, 41, 59, 0.12);
+  padding: 2.5rem 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  color: #3d5a80;
+  margin-top: 0;
+}
+
+a {
+  color: #4361ee;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #3a0ca3;
+}
+
+button, input[type="submit"] {
+  background: linear-gradient(90deg, #4361ee 0%, #7209b7 100%);
+  color: #fff;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(67, 97, 238, 0.10);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+button:hover, input[type="submit"]:hover {
+  background: linear-gradient(90deg, #7209b7 0%, #4361ee 100%);
+  box-shadow: 0 4px 16px rgba(67, 97, 238, 0.16);
+}
+
+input, textarea, select {
+  border: 1px solid #bfc9d1;
+  border-radius: 6px;
+  padding: 0.6em 1em;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background: #f6f8fa;
+  transition: border-color 0.2s;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: #4361ee;
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #e0e7ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+  border-radius: 8px;
+}
